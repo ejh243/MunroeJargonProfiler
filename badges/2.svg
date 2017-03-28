@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="48"
+   height="48"
+   viewBox="0 0 12.7 12.7"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.1 r"
+   sodipodi:docname="2.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="22.4"
+     inkscape:cx="25.536383"
+     inkscape:cy="26.362959"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="3200"
+     inkscape:window-height="1748"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     showguides="true" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-284.3)">
+    <path
+       sodipodi:type="star"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.3651638;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       id="path4529"
+       sodipodi:sides="6"
+       sodipodi:cx="6.3499999"
+       sodipodi:cy="290.64999"
+       sodipodi:r1="6.7229795"
+       sodipodi:r2="5.0422344"
+       sodipodi:arg1="0.60817278"
+       sodipodi:arg2="1.1317716"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 11.867505,294.49129 -3.3742687,0.72277 -2.7111481,2.13488 -2.313064,-2.56082 -3.20444098,-1.28048 1.06120448,-3.28358 -0.49329276,-3.41537 3.37426856,-0.72276 2.7111481,-2.13489 2.3130641,2.56083 3.2044413,1.28047 -1.061205,3.28359 z"
+       transform="matrix(0.90162254,-0.08010474,0.08010474,0.90162254,-22.657745,29.102079)" />
+    <path
+       transform="matrix(0.88202205,-0.07836333,0.07836333,0.88202205,-22.027141,34.787904)"
+       d="m 11.867505,294.49129 -3.3742687,0.72277 -2.7111481,2.13488 -2.313064,-2.56082 -3.20444098,-1.28048 1.06120448,-3.28358 -0.49329276,-3.41537 3.37426856,-0.72276 2.7111481,-2.13489 2.3130641,2.56083 3.2044413,1.28047 -1.061205,3.28359 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="1.1317716"
+       sodipodi:arg1="0.60817278"
+       sodipodi:r2="5.0422344"
+       sodipodi:r1="6.7229795"
+       sodipodi:cy="290.64999"
+       sodipodi:cx="6.3499999"
+       sodipodi:sides="6"
+       id="path4531"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#784421;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.3651638;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       sodipodi:type="star" />
+  </g>
+</svg>
