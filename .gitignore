@@ -90,3 +90,6 @@ ENV/
 
 # Images
 *.png
+
+# Static files
+static

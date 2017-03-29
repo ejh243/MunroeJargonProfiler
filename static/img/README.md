@@ -10,7 +10,7 @@ For PNG with different size:
 $ inkscape -z -w WIDTH -h HEIGHT -e logo.{png,svg}
 ~~~
 
-# Acknoledgement
+# Acknowledgement
 
 - xkcd font by Randall Munroe.
 - Icon made by Freepik from www.flaticon.com.
