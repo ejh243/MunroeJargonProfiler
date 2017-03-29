@@ -1,7 +1,7 @@
 # The 'Munroe Meter' Jargon Scoring System
 
 When communicating a complex or unfamiliar concept, jargon creates a barrier for
-understanding. There are a number of situations when we are asked give an explanation
+understanding. There are a number of situations when we are asked to give an explanation
 assuming that the audience has no technical or specialised knowledge. This can be
 particularly challenging as experts are often unaware when they are using jargon or what
 even constitutes jargon. We have developed a tool that identifies jargon, gives the

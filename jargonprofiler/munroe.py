@@ -87,16 +87,20 @@ def munroe_score(text, exclusions='', verbose=True):
                 tags[i] = 'common'
             else:
                 tags[i] = 'not common'
-    
-    
+
+    if len([t for t in tokens if t != '']) == 0:
+        score = 1.0
+    else:
+        score = munroe/len([t for t in tokens if t != ''])
+        
     # If verbose, return some printed output
     if verbose:
         print('You have '+ str(len(words)) + ' words in your document')
         print('Of these, '+str(munroe)+' are in the most common 1000 words!')
-        print('Score: '+str(100*munroe/len([t for t in tokens if t != '']))+'%')
+        print('Score: '+str(100*score)+'%')
         
     return_dict = {
-        'score': munroe/len([t for t in tokens if t != '']),
+        'score': score,
         'tagged_words': list(zip(words,tags))
     }
     return return_dict
