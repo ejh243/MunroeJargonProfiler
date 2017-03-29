@@ -54,17 +54,15 @@ def colour_text(text, word_list):
             if word_list[word] == "proper noun":
                 coloured_list_of_words.append("<span class=\"proper-noun\">{}</span>".format(word))
             elif word_list[word] == 'excluded':
-            coloured_list_of_words.append("<span class=\"text-warning\">{}</span>".format(word))
+                coloured_list_of_words.append("<span class=\"text-warning\">{}</span>".format(word))
             elif word_list[word] == 'acronym':
-            coloured_list_of_words.append("<span class=\"text-warning\">{}</span>".format(word))
-                pass
+                coloured_list_of_words.append("<span class=\"text-warning\">{}</span>".format(word))
             elif word_list[word] == 'not alphabetic':
-            coloured_list_of_words.append("<span class=\"text-warning\">{}</span>".format(word))
-                pass
+                coloured_list_of_words.append("<span class=\"text-warning\">{}</span>".format(word))
             elif word_list[word] == 'common':
-            coloured_list_of_words.append("<span class=\"text-sucess\">{}</span>".format(word))
+                coloured_list_of_words.append("<span class=\"text-sucess\">{}</span>".format(word))
             elif word_list[word] == 'not common':
-            coloured_list_of_words.append("<span class=\"text-danger\">{}</span>".format(word))
+                coloured_list_of_words.append("<span class=\"text-danger\">{}</span>".format(word))
         else:
             coloured_list_of_words.append(word)
 
