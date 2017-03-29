@@ -101,7 +101,7 @@ def munroe_score(text, exclusions='', verbose=True):
         
     return_dict = {
         'score': score,
-        'tagged_words': list(zip(words,tags))
+        'tagged_words': dict(zip(words,tags))
     }
     return return_dict
 
