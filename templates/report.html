@@ -11,16 +11,16 @@
   You received a score of <strong>{{ score }}%</strong> words. Congratulations
   for your badge.
   <span class="jargon-badge">
-  {% if score < 20 %}           
-  <img alt="wordcloud" src="static/img/badges/1.png">
-  {% elif score > 20 and score < 40 %}
-  <img alt="wordcloud" src="static/img/badges/2.png">
-  {% elif score > 40 and score < 60 %}
-  <img alt="wordcloud" src="static/img/badges/3.png">
-  {% elif score > 60 and score < 80 %}
-  <img alt="wordcloud" src="static/img/badges/4.png">
-  {% elif score > 80 %}
-  <img alt="wordcloud" src="static/img/badges/5.png">
+  {% if score < 0 %}
+  <img alt="wordcloud" src="static/img/badges/1.svg">
+  {% elif score >= 0.2 and score < 0.4 %}
+  <img alt="wordcloud" src="static/img/badges/2.svg">
+  {% elif score >= 0.4 and score < 0.6 %}
+  <img alt="wordcloud" src="static/img/badges/3.svg">
+  {% elif score >= 0.6 and score < 0.8 %}
+  <img alt="wordcloud" src="static/img/badges/4.svg">
+  {% elif score >= 0.8 %}
+  <img alt="wordcloud" src="static/img/badges/5.svg">
   {% endif %}
   </span>
 </div>

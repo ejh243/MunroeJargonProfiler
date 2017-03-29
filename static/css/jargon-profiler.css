@@ -21,3 +21,7 @@ textarea {
     display: block;
     text-align: center;
 }
+
+.jargon-badge > img {
+    width: 50%;
+}
