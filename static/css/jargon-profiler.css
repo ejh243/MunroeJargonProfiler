@@ -17,6 +17,10 @@ textarea {
     height: 20em;
 }
 
+blockquote {
+    border: 5px solid #eee;
+}
+
 .jargon-badge {
     display: block;
     text-align: center;
