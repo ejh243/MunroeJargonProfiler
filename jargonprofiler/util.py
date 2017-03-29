@@ -69,14 +69,13 @@ def stem(tokens):
 
 
 def read_file(filename):
-    '''
-    Open a file, read text, return a string
+    '''Read the text from a file as a one-line string.
+
+    Whitespace (newlines etc) is stripped from the ends of each line,
+    and the lines joined with a single space character.
     '''
     text = ''
     with open(filename, 'r') as f:
         for line in f:
-            if line.endswith('\n'):
-                text += line[0:-1]
-            else:
-                text += line
+            text += ' ' + line.strip()
     return text
