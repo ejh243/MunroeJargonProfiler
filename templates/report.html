@@ -8,7 +8,7 @@
   </blockquote>
 </div>
 <div class="col-xs-6">
-  You received a score of <strong>{{ score }}%</strong> words. Congratulations
+  You received a score of <strong>{{ "{:.2f}".format(score) }}</strong> words. Congratulations
   for your badge.
   <span class="jargon-badge">
   {% if score < 0 %}

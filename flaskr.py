@@ -52,7 +52,7 @@ def colour_text(text, word_list):
     for word in list_of_words:
         if word in word_list:
             if word_list[word] == "proper noun":
-                coloured_list_of_words.append("<span class=\"proper-noun\">{}</span>".format(word))
+                coloured_list_of_words.append("<span class=\"text-sucess\">{}</span>".format(word))
             elif word_list[word] == 'excluded':
                 coloured_list_of_words.append("<span class=\"text-warning\">{}</span>".format(word))
             elif word_list[word] == 'acronym':
