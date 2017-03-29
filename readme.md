@@ -54,7 +54,7 @@ To upgrade dependencies to their latest versions use
 ### Notes for users on how the JargonProfiler works.
 
 This software is designed to take some text (in U.S English) and calculate the proportion of commonly used words: A score of 0% means all of the words are jargon, a score for 100% means none of the words are jargon.
-Proper nouns, single characters and numbers are excluded from the calculation. Words are also reduced to their stem (i.e. plurals are singularised; the past/future tense is transformed to present tense) 
+Proper nouns, single characters, abbreviations and numbers are excluded from the calculation. Words are also reduced to their stem (i.e. plurals are singularised; the past/future tense is transformed to present tense) 
 Users have the option to specify up to 5 key words which will be excluded from the Jargon detector and therefore ignored when caluclating the score.
 
 
