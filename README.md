@@ -88,6 +88,14 @@ package too:
 pip install -e .
 ```
 
+Installing with conda in its own environment.
+```
+# create conda environment based on environment.yml file
+conda env create
+# activate the environment
+source activate JargonProfiler
+```
+
 ### Testing
 
 Testing is being done using [pytest][pytest]. To run all the tests, just use
