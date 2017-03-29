@@ -45,8 +45,20 @@ pip-compile
 To upgrade dependencies to their latest versions use
 
 ```
- pip-compile --upgrade
- ```
+pip-compile --upgrade
+```
+
+## Download static file
+
+```
+bower install
+```
+
+## Flash
+
+```
+python runserver.py
+```
 
 [pytest]: http://doc.pytest.org/en/latest/contents.html
 [pip-tools]: https://github.com/nvie/pip-tools
