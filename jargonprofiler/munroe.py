@@ -17,7 +17,8 @@ def get_common():
     text = []
     with resource_stream(__name__, '1000common.txt') as f:
         for line in f:
-            text.append(line.decode().strip())
+            # Common words should be lowercase for consistency!
+            text.append(line.decode().strip().lower())
     return text
 
 
