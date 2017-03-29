@@ -37,7 +37,7 @@ def index():
         return render_template(
             'report.html',
             text=text,
-            score=score
+            score=score["score"]
         )
     return render_template(
         'index.html',
