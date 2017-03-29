@@ -41,6 +41,13 @@ def tag_proper_nouns(text):
         proper_nouns.update([word for word, pos in tagged_sent if pos == 'NNP'])
     return proper_nouns
 
+def find_acronyms(text): 
+    # This is one I made earlier...
+    UU = r"\w*[A-Z][A-Z]\w*"
+    U2 = r"\w*\d\w*[A-Z]\w*|\w*[A-Z]\w*\d\w*"
+    UlU = r"[A-Z]\w*[A-Z]"
+    regex = r"\b("+UU+r'|'+U2+r'|'+UlU+r')s?\b'
+    return re.findall(regex,text)
 
 def lowercase(tokens):
     '''
