@@ -1,0 +1,12 @@
+{
+  "name": "MunroeJargonProfiler",
+  "homepage": "https://github.com/ejh243/MunroeJargonProfiler",
+  "authors": [
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
