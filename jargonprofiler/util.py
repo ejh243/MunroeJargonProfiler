@@ -20,7 +20,7 @@ def tokenise(text):
     - Alphabetic (numbers are automatically excluded)
     '''
     text = text.encode('ascii', 'ignore').decode('utf-8')
-    tokens = re.findall("[A-Za-z]{2,}", text)
+    tokens = re.findall("[A-Za-z]{3,}", text)
     tokens = [t for t in tokens]
     return tokens
 
