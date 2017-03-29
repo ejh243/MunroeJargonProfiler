@@ -8,6 +8,10 @@ def test_all_common():
     assert result["score"] == 1.0
 
 
+def test_half_jargon():
+    assert munroe_score("epigenetics address")['score'] == 0.5
+
+
 def test_all_jargon():
     result = munroe_score("epigenetics magic navy")
     assert result["score"] == 0.0
