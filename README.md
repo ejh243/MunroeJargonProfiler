@@ -26,11 +26,22 @@ package too:
 pip install -e .
 ```
 
+### Testing
+
 Testing is being done using [pytest][pytest]. To run all the tests, just use
 
 ```
-pytest
+pytest test
 ```
+
+New tests should be written in files inside the `test` folder, named either
+`test_*.py` or `*_test.py`. The tests themselves are functions with names
+starting `test_` and taking no arguments. They check expected behaviour using
+`assert` statements.
+
+See the [pytest documentation][test-discovery] for more details.
+
+### Updating requirements
 
 The `requirements.txt` file used above is generated from a specification in
 `requirements.in` by [pip-tools][pip-tools]. This ensures that we list the
@@ -62,3 +73,4 @@ python runserver.py
 
 [pytest]: http://doc.pytest.org/en/latest/contents.html
 [pip-tools]: https://github.com/nvie/pip-tools
+[test-discovery]: http://doc.pytest.org/en/latest/goodpractices.html#test-discovery
