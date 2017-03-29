@@ -27,7 +27,7 @@ def tokenise(text):
 
 def tag_proper_nouns(text):
     '''
-    Takes raw text, tags it using a part-of-speech tagger and returns a list of the proper nouns
+    Takes raw text, tags it using a part-of-speech tagger and returns a set of the proper nouns
 
     Will be slow for large pieces of text!
 

@@ -4,4 +4,4 @@ from jargonprofiler.munroe import munroe_score
 
 def test_stem_words_for_score():
     result = munroe_score("joining laughing supported computers riches")
-    assert result["score"] == 100
+    assert result["score"] == 1.0
