@@ -1,10 +1,34 @@
 <html>
-  <body>
-    Works!
-<form method="POST" action="/">
-    {{ form.csrf_token }}
-    {{ form.text.label }} {{ form.text(size=20) }}
-    <input type="submit" value="Go">
-</form>
-  </body>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+  crossorigin="anonymous">
+
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">
+       MunroeJargonProfiler
+      </a>
+      </div>
+    </div>
+  </nav>
+  Works!
+  <!-- input text area -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12">
+        <form method="POST" action="/">
+          {{ form.csrf_token }} {{ form.text.label }} {{ form.text(size=20) }}
+          <input type="submit" value="Go">
+        </form>
+      </div>
+    </div>
+  </div>
+
+</body>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+  crossorigin="anonymous"></script>
+
 </html>
