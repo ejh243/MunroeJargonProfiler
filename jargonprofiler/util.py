@@ -21,8 +21,7 @@ def tokenise(text):
     '''
     text = text.encode('ascii', 'ignore').decode('utf-8')
     tokens = re.findall("[A-Za-z]{3,}", text)
-    tokens = [t for t in tokens]
-    return tokens
+    return list(tokens)
 
 
 def tag_proper_nouns(text):
@@ -41,28 +40,28 @@ def tag_proper_nouns(text):
         proper_nouns.update([word for word, pos in tagged_sent if pos == 'NNP'])
     return proper_nouns
 
-def find_acronyms(text): 
-    # This is one I made earlier...
+
+def find_acronyms(text):
+    '''A simple acronym finder using regular expressions.'''
     UU = r"\w*[A-Z][A-Z]\w*"
     U2 = r"\w*\d\w*[A-Z]\w*|\w*[A-Z]\w*\d\w*"
     UlU = r"[A-Z]\w*[A-Z]"
-    regex = r"\b("+UU+r'|'+U2+r'|'+UlU+r')s?\b'
-    return re.findall(regex,text)
+    regex = r"\b(" + UU + r'|' + U2 + r'|' + UlU + r')s?\b'
+    return re.findall(regex, text)
+
 
 def lowercase(tokens):
-    '''
-    Takes a list of tokens, makes them all lowercase and returns them
-    '''
+    '''Given a list of tokens, return a list of the lowercase versions.'''
     return [t.lower() for t in tokens]
 
 
 def stem(tokens):
-    '''
-    Takes a list of tokens, applies a stemming algorithm (returns standardised forms of words - removes
-    'ing', 's'...) and returns a list of stemmed words
+    '''Find the stems for each of a list of tokens.
 
-    At present:
-    - We use the Porter stemmer (least aggressive form of stemming - alternates are snowball and lancaster)
+    This returns a standardised form of words, removing 'ing', 's', etc.
+
+    At present we use the Porter stemmer (least aggressive form of stemming).
+    Alternates are snowball and lancaster.
     '''
     stemmer = nltk.stem.PorterStemmer()
     return [stemmer.stem(t) for t in tokens]
