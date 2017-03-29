@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-setup(name='JargonProfiler',
+setup(name='jargonprofiler',
       version='0.1',
       description='Assessing the jargon content of texts and speech',
       url='https://github.com/ejh243/MunroeJargonProfiler',
