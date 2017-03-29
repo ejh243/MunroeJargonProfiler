@@ -27,7 +27,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="22.4"
      inkscape:cx="25.935307"
-     inkscape:cy="2.287812"
+     inkscape:cy="23.716383"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -56,28 +56,23 @@
      transform="translate(0,-284.3)">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.63802075px;line-height:3.17499995px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       style="font-style:normal;font-weight:normal;font-size:3.63802075px;line-height:3.17499995px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="0.56637371"
-       y="286.81592"
+       y="287.55319"
        id="text4487"><tspan
          sodipodi:role="line"
-         id="tspan4485"
          x="0.56637371"
-         y="286.81592"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:3.17499995px;font-family:xkcd;-inkscape-font-specification:xkcd;fill:#ffffff;stroke-width:0.26458332px;">Munroe</tspan><tspan
-         sodipodi:role="line"
-         x="0.56637371"
-         y="290.17453"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:3.17499995px;font-family:xkcd;-inkscape-font-specification:xkcd;fill:#ffffff;stroke-width:0.26458332px;"
+         y="287.55319"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:3.17499995px;font-family:xkcd;-inkscape-font-specification:xkcd;fill:#ffffff;stroke-width:0.26458332px"
          id="tspan4489">Jargon</tspan><tspan
          sodipodi:role="line"
          x="0.56637371"
-         y="293.53317"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:3.17499995px;font-family:xkcd;-inkscape-font-specification:xkcd;fill:#ffffff;stroke-width:0.26458332px;"
+         y="290.9118"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:3.17499995px;font-family:xkcd;-inkscape-font-specification:xkcd;fill:#ffffff;stroke-width:0.26458332px"
          id="tspan4491">Profiler</tspan></text>
     <g
        id="g5341"
-       transform="matrix(0.00578681,0,0,0.00578681,5.059795,293.825)"
+       transform="matrix(0.00868021,0,0,0.00868021,4.4146927,291.97291)"
        style="fill:#ffffff">
       <g
          id="g5285"
@@ -136,7 +131,7 @@
     </g>
     <g
        id="g5401"
-       transform="matrix(0.00479847,0,0,0.00479847,9.8091068,293.825)"
+       transform="matrix(0.00719771,0,0,0.00719771,8.6730281,291.97291)"
        style="fill:#ffffff">
       <g
          id="g5345"
@@ -195,7 +190,7 @@
     </g>
     <g
        id="g5461"
-       transform="matrix(0.00523078,0,0,0.00523078,0.27777599,293.825)"
+       transform="matrix(0.00784617,0,0,0.00784617,0.10729437,291.97291)"
        style="fill:#ffffff">
       <g
          id="g5405"
