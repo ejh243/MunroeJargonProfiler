@@ -13,4 +13,4 @@ def test_proper_noun_begins_sentance():
 
 def test_munroe_with_proper_nouns():
     result = munroe_score("Eilis is a small girl")
-    assert result["basic_score"] == 75
+    assert result["score"] == 75
