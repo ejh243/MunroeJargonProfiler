@@ -30,5 +30,5 @@ def test_munroe_with_proper_noun():
 
 
 def test_munroe_with_proper_noun_and_complex_words():
-    result = munroe_score("Eilis and Jonathan at a workshop")
-    assert result['score'] == 0.5
+    result = munroe_score("Jonathan and Eilis are at a workshop")
+    assert result['score'] == 1 / 3
