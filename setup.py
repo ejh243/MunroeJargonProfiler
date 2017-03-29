@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-setup(name='JargonProfiler',
+setup(name='jargonprofiler',
       version='0.1',
       description='Assessing the jargon content of texts and speech',
       url='https://github.com/ejh243/MunroeJargonProfiler',
@@ -15,7 +15,7 @@ setup(name='JargonProfiler',
                    'License :: OSI Approved :: MIT License'],
       install_requires=['nltk'],
       python_requires='>=3.3',
-      packages=find_packages('jargonprofiler', exclude=['*test']),
+      packages=find_packages(exclude=['*test']),
       package_data={
           # If any (sub-)package contains *.txt files, include them:
           '': ['*.txt']
