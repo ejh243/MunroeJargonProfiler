@@ -55,15 +55,15 @@ To upgrade dependencies to their latest versions use
 
 When communicating a complex or unfamilier concept, jargon creates a barrier for 
 understanding. There are a number of situations when we are asked give an explaination 
-assuming that the audience has no technical or specialised knowledge.This can be 
+assuming that the audience has no technical or specialised knowledge. This can be 
 particularly challening as experts are often unaware when they are using jargon or what 
 even constitutes as jargon. We have developed a tool that identifies jargon, gives the 
 user a metric to rate the jargon content, and makes suggestions for alternatives. It improves 
 existing tools in this space in many ways. 
 
 1. it makes use of the Munroe approach to characterising common language
-2. it provides many alternative definitions of jargon, including subject specific lists
-3. it enables the user to exclude up to five key words from the jargon score without which
+2. it provides many alternative definitions of jargon
+3. it enables the user to exclude key words from the jargon score without which
 the article would lose it's meaning
 4. it provides multiple outputs:
 ..*multiple metrics based on different definitions of jargon
@@ -72,10 +72,7 @@ the article would lose it's meaning
 
 This software is designed to take some text (in U.S English) and calculate the proportion of commonly used words: A score of 0% means all of the words are jargon, a score for 100% means none of the words are jargon.
 Proper nouns, single characters, abbreviations and numbers are excluded from the calculation. Words are also reduced to their stem (i.e. plurals are singularised; the past/future tense is transformed to present tense) 
-Users have the option to specify up to 5 key words which will be excluded from the Jargon detector and therefore ignored when caluclating the score.
-
-
-The software can calculate multiple metrics where Jargon is classified in several ways.
+Users have the option to specify a list of key words which will be excluded from the jargon detector and therefore ignored when caluclating the score.
 
 ###Jargon classifications:
 
@@ -85,10 +82,10 @@ Munroe: Any word outside of the 1000 most common english words is characterised 
 Basic English defined by Ogden
 Words used by a typical 12 year old 
 Output of Lancaster Corpus of Children's Project Writing 
-Commonly used words in Biology
-Commonly used words in 
+Commonly used words in biology
+Commonly used words in other subjects
 
-###FUTURE FUNCTIONAILITY TO IMPLEMENT 
+###FUTURE FUNCTIONALITY TO IMPLEMENT 
 
 GIT ISSUE #30:
 Flag other charcteristics associated with a high-level comprehension including:
