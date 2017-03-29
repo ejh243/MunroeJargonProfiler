@@ -1,10 +1,25 @@
 {% extends "base.html" %}
 
 {% block body %}
-<div class="col-xs-12">
-  <form method="POST" action="/">
-    {{ form.csrf_token }} {{ form.text.label }} {{ form.text(size=20) }}
-    <input type="submit" value="Go">
-  </form>
+<form method="POST" action="/">
+  {{ form.csrf_token }}
+  <div class="row">
+    <div class="col-xs-2">
+      {{ form.text.label }}
+    </div>
+    <div class="col-xs-10">
+      {{ form.text }}
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-10">
+    </div>
+    <div class="col-xs-2">
+      <div class="pull-right">
+        <input class="btn btn-default" type="submit" value="Run Profiler">
+      </div>
+    </div>
+  </div>
+</form>
 </div>
 {% endblock %}

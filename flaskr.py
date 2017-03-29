@@ -4,7 +4,7 @@ Run Munroe Jargon Profiler Flask app
 from flask import Flask, request, session, g, redirect, url_for, \
      abort, render_template, flash
 from flask_wtf import FlaskForm
-from wtforms import StringField
+from wtforms import TextAreaField
 
 from jargonprofiler import munroe
 
@@ -20,7 +20,7 @@ class TextForm(FlaskForm):
     """
     Form to receive user input of text to be processed.
     """
-    text = StringField('text')
+    text = TextAreaField('text')
 
 @app.route('/', methods=('GET', 'POST'))
 def index():
