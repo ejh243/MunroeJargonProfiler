@@ -17,11 +17,7 @@ def get_common():
     text = []
     with resource_stream(__name__, '1000common.txt') as f:
         for line in f:
-            line = line.decode("utf-8")
-            if line.endswith('\n'):
-                text.append(line[0:-1])
-            else:
-                text.append(line)
+            text.append(line.decode().strip())
     return text
 
 
@@ -30,7 +26,7 @@ def get_common():
 common = get_common()
 # Stem the words so that they match the form of our tokens
 stemmed_common = set(util.stem(common))
-    
+
 def munroe_score(text, exclusions='', verbose=True):
     '''
     Takes raw text, tokenises and stems it, and compares the stems to the set of the stemmed 1000 most common words
@@ -38,7 +34,6 @@ def munroe_score(text, exclusions='', verbose=True):
     
     e.g. if output is 0.61, 61% of words were in the list of the 1000 most common. 
     '''
-    
     # Process exclusions
     if exclusions != '':
         exclusions = util.lowercase(re.findall('\w+', exclusions))
@@ -56,7 +51,6 @@ def munroe_score(text, exclusions='', verbose=True):
     
     # Identify acronyms
     acronyms = util.find_acronyms(text)
-    
     # Tokenise and stem the words. Mark proper nouns and non-alphabetic words in the tag list.
     tokens = []
     for i, word in enumerate(words):
@@ -83,7 +77,6 @@ def munroe_score(text, exclusions='', verbose=True):
             
     
 
-    
     # Count the number of tokens that are in the most common 1000 words
     munroe = 0
     for i, t in enumerate(tokens):
