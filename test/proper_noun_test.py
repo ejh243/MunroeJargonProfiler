@@ -1,10 +1,15 @@
-def proper_noun_in_sentance():
-    assert tag_proper_noun("My name is Eilis.") == ["Eilis"]
 
-def proper_noun_begins_sentance():
-    assert tag_proper_noun("Eilis is a girl") == ["Eilis"]
+from jargonprofiler.util import tag_proper_nouns
+from jargonprofiler.munroe import munroe_score
 
-def munroe_with_proper_nouns():
+
+def test_proper_noun_in_sentance():
+    assert tag_proper_nouns("My name is Eilis.") == ["Eilis"]
+
+
+def test_proper_noun_begins_sentance():
+    assert tag_proper_nouns("Eilis is a girl") == ["Eilis"]
+
+
+def test_munroe_with_proper_nouns():
     assert munroe_score("Eilis is a small girl") == 75
-
-
