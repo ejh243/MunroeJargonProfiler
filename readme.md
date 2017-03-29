@@ -7,7 +7,7 @@ to avoid conflicts with your main system installation. The `virtualenv` tool
 can be installed following the instructions at
 https://virtualenv.pypa.io/en/stable/installation/
 
-Clone this git repository, then navigate to the folder where you cloned it
+Clone this Git repository, then navigate to the folder where you cloned it
 in a terminal and run the following sequence of commands to set up a virtual
 environment and install all the project's dependencies.
 
@@ -36,6 +36,7 @@ The `requirements.txt` file used above is generated from a specification in
 `requirements.in` by [pip-tools][pip-tools]. This ensures that we list the
 exact versions used of all our dependencies, including indirect ones. If you
 are adding a new dependency, add it to `requirements.in` and then run
+
 ```
 pip install pip-tools  # First time only!
 pip-compile
