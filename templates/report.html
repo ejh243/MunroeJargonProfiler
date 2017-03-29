@@ -1,9 +1,14 @@
-<html>
-  <body>
+{% extends "base.html" %}
+
+{% block body %}
+<div class="col-xs-6">
     Score: {{ score }}
 
     <blockquote>
       {{ text }}
     </blockquote>
-  </body>
-</html>
+</div>
+<div class="col-xs-6">
+  <img alt="wordcloud" src="static/img/wordcloud.png">
+</div>
+{% endblock %}
