@@ -71,13 +71,13 @@ bower install
 python runserver.py
 ```
 
-## Notes for users on how the JargonProfiler works.
+## Notes for users on how the JargonProfiler works
 
 When communicating a complex or unfamilier concept, jargon creates a barrier for 
-understanding. There are a number of situations when we are asked give an explaination 
-assuming that the audience has no technical or specialised knowledge.This can be 
-particularly challening as experts are often unaware when they are using jargon or what 
-even constitutes as jargon. We have developed a tool that identifies jargon, gives the 
+understanding. There are a number of situations when we are asked to give an explanation 
+assuming that the audience has no technical or specialised knowledge. This can be 
+particularly challenging as experts are often unaware when they are using jargon or what 
+even constitutes jargon. We have developed a tool that identifies jargon, gives the 
 user a metric to rate the jargon content, and makes suggestions for alternatives. It improves 
 existing tools in this space in many ways. 
 
