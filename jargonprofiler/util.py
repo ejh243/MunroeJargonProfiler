@@ -4,6 +4,7 @@ Utility functions useful for multiple scoring metrics.
 
 import re
 import nltk
+from langdetect import detect
 
 # This NLTK package is needed by tag_proper_nouns
 nltk.download('averaged_perceptron_tagger')
@@ -11,7 +12,12 @@ nltk.download('averaged_perceptron_tagger')
 # This one is needed by sent_tokenize
 nltk.download('punkt')
 
-
+def lang_detect(text):
+    if detect(text) == 'en':
+        return 1
+    else:
+        return 0
+    
 def tokenise(text):
     '''Takes raw text and returns a list of tokens.
 
