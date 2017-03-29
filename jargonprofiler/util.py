@@ -8,6 +8,9 @@ import nltk
 # This NLTK package is needed by tag_proper_nouns
 nltk.download('averaged_perceptron_tagger')
 
+# This one is needed by sent_tokenize
+nltk.download('punkt')
+
 
 def tokenise(text):
     '''Takes raw text and returns a list of tokens.

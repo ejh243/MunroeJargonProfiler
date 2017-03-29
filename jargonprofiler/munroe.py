@@ -16,6 +16,7 @@ def get_common():
     text = []
     with resource_stream(__name__, '1000common.txt') as f:
         for line in f:
+            line = line.decode("utf-8")
             if line.endswith('\n'):
                 text.append(line[0:-1])
             else:
