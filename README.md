@@ -68,6 +68,11 @@ Clone this Git repository, then navigate to the folder where you cloned it
 in a terminal and run the following sequence of commands to set up a virtual
 environment and install all the project's dependencies.
 
+(Note for Windows users: these assume a POSIX-style shell, so will work in
+git-bash, but not the standard Windows shell. For that, you'll probably need
+`python3.exe` in place of `python3`, and `venv\Scripts\activate` as the
+second line.)
+
 ```
 virtualenv -p python3 venv
 source venv/bin/activate
