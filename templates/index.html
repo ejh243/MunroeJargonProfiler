@@ -1,5 +1,10 @@
 <html>
   <body>
     Works!
+<form method="POST" action="/">
+    {{ form.csrf_token }}
+    {{ form.text.label }} {{ form.text(size=20) }}
+    <input type="submit" value="Go">
+</form>
   </body>
 </html>
