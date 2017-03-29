@@ -1,2 +1,3 @@
 nltk
 flask
+flask_wtf
