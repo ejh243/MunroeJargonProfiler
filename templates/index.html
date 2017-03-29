@@ -17,11 +17,14 @@
   <!-- input text area -->
   <div class="container-fluid">
     <div class="row">
-      <div class="col-xs-12">
+      <div class="col-xs-6">
         <form method="POST" action="/">
           {{ form.csrf_token }} {{ form.text.label }} {{ form.text(size=20) }}
           <input type="submit" value="Go">
         </form>
+      </div>
+      <div class="col-xs-6">
+        <img alt="wordcloud" src="static/img/wordcloud.png">
       </div>
     </div>
   </div>
